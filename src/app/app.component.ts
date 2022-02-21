@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'matTable';
+
+  dataSource = [];
+
+  displayedColumns = ["seqNo", "description", "duration"];
 }
